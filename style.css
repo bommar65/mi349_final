@@ -47,11 +47,17 @@ body {
     width: 100%;
     height: 100%;
 }
+#youtube{
+    width: 1510px;
+    height: 900px;
+    border: 0;
+}
 #resume{
     display:block;
     margin-left: auto;
     margin-right: auto;
-    height: 1000px;
+    width: 800px;
+    height: 2100px;
     padding: 20px;
 }
 .overlay{

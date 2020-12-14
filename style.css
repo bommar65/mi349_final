@@ -1,5 +1,5 @@
 body {
-    background: #ccc;
+    background: #516e77;
     margin: 0;
     font-family: Roboto, Arial, Helvetica;
     font-weight: 300;
@@ -7,25 +7,40 @@ body {
 .containter{
     width: 80%
 }
+
 .flex-container{
     display: flex;
-    justify-content: center;
+    width: 100%;
     
 }
+.roundbox{
+    display: flex;
+    width: 70%;
+    height: 100%;
+    background-color: grey;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin: 80px;
+}
+
 #mywork{
     font-size: large;
     display: flex;
     justify-content: center;
     font-size: 40px;
-    color: darkgreen;
-    font-weight: 600;
-    font-style: italic;
+    color: #00a86b;
+    font-weight: 300px;
+}
+#headshot{
+    height: 500px;
+    width: 400px;
+    float: right;
+    margin: 30px;
 }
 .pic{
     position: relative;
-    width: 1200px;
-    height: 900px;
-    margin: 20px;
+    width: 100%;
+    height: 100%;
 }
 .trans_image{
     display: block;
@@ -73,9 +88,8 @@ body {
 
 
 header {
-    background: grey;
-    box-shadow: rgba(0,0,0,0.5) 0 0 20px;
-
+    background: #00a86b;
+    width: 100%;
 }
 .logo {
     margin: 10px;
@@ -91,7 +105,7 @@ header::after {
 }
 nav {
     float: right;
-    
+    background-color: #00a86b;
 }
 nav ul {
     margin: 0;
@@ -103,7 +117,7 @@ nav li {
     display: inline-block;
     margin-left: 40px;
     padding-top: 50px;
-
+    
     position: relative;
 }
 
@@ -138,11 +152,21 @@ img {
  }
  h1 {
     margin: 15px 0;
+    font-weight: 300;
+    font-size: 30px;
  }
  h2 {
     margin: 0;
-    font-weight: 100;
-    color: grey;
+    font-weight: 200;
+    color: black;
+    font-size: 20px;
+ }
+ #greeting{
+    font-size: 150px; 
+    margin: 30px;
+ }
+ #aboutmeinfo{
+     font-size: 50px;
  }
  .card {
     background-color: #f3f3f3;
@@ -155,8 +179,13 @@ img {
  
  }
  #aboutme {
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    }
+
  .card .avatar{
     width: 100px;
     border-radius: 50%;
@@ -176,3 +205,35 @@ img {
     opacity: 0.5;
     transition: opacity ease-in-out 0.2s;
  }
+.golfflex{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+}
+#picofbot{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    margin: 20px;
+}
+#GolfTitle{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 100px;
+    margin:0px;
+}
+#data{
+    font-size: 40px;
+}
+#datatitle{
+    font-size: 100px;
+    margin:0px;
+}
+#rip{
+    justify-content: center;
+    font-size: 40px;
+
+}
